@@ -79,3 +79,14 @@
   .expertise_3 {
     position: relative;
   }
+
+
+  /* .brand-logo img {
+    height: 64px;
+  } */
+
+
+  #the-canvas {
+    border: 1px solid black;
+    direction: ltr;
+  }
