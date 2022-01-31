@@ -26,19 +26,37 @@
     <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
 
   <!-- nav bar -->
-    <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper white">
-                <div class="container ">
-                    <a href="index.html" class="brand-logo black-text"><i class="material-icons">polymer</i></a>       
-                    <ul class="right hide-on-med-and-down">
-                        <li><a class="black-text" href="about.html">About</a></li>
-                        <li><a class="black-text" href="r_d.html">R&D</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
+
+  <div class="navbar-fixed">
+    
+    <nav class="white">
+      <div class="container">
+      <div class="nav-wrapper white">
+        <!-- <div class="container "> -->
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+          <a href="#!" class="brand-logo black-text"><i class="material-icons">polymer</i></a>       
+          <ul class="right hide-on-med-and-down">
+            <li><a class="black-text" href="about.html">About</a></li>
+            <li><a class="black-text" href="r_d.html">R&D</a></li>
+          </ul>
+      </div>
+      </div>
+    </nav>
+  
+  </div>
+  
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="about.html">About</a></li>
+      <li><a href="r_d.html">R&D</a></li>
+    </ul>
+
+
+  <script>
+      document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+  </script>
 
 
 	<div class="container">
