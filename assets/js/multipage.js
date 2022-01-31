@@ -9,7 +9,9 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.w
 
 
 
-url = 'assets/documents/MarcoPellegrino_Portfolio.pdf';
+// var url = 'assets/documents/MarcoPellegrino_Portfolio.pdf';
+var url = 'https://raw.githubusercontent.com/Marco-Pellegrino/marco-pellegrino.github.io/main/assets/documents/MarcoPellegrino_Portfolio.pdf';
+
 var thePdf = null;
 var scale = 3.0;
 
