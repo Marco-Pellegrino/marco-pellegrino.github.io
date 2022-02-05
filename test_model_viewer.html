@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Marco Pellegrino</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,60 +13,24 @@
     <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/prism.css">
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="icon" href= "./assets/images/">
 
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </head>
 
 <body>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
 
   <!-- nav bar -->
-
-  <!-- nav bar -->
-
-  <div class="navbar-fixed">
-    
-    <nav class="white">
-      <div class="container">
-      <div class="nav-wrapper white">
-        <!-- <div class="container "> -->
-          <a class="sidenav-trigger" href="index.html" data-target="mobile-demo"><i class="material-icons black-text">menu</i></a>
-          <a class="brand-logo black-text" href="index.html" ><i class="material-icons">polymer</i></a>       
-          <ul class="right hide-on-med-and-down">
-            <li><a class="black-text" href="about.html">About</a></li>
-            <li><a class="black-text" href="projects.html">Projects</a></li>
-            <li><a class="dropdown-trigger black-text" href="#" data-target="r_d_dropdown">R&D<i class="material-icons right">arrow_drop_down</i></a></li>/li>
-          </ul>
-      </div>
-      </div>
-    </nav>
-  
-  </div>
-  
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="about.html">About</a></li>
-      <li><a href="r_d.html">R&D</a></li>
-      <li><a href="projects.html">Projects</a></li>
-    </ul>
-
-  <!-- Dropdown Structure -->
-  <ul id="r_d_dropdown" class="dropdown-content">
-    <li><a class="black-text" id="geometry_dropdown" href="r_d/geometry.html">Geometry</a></li>
-    <li><a class="black-text" href="#!">Optimisation</a></li>
-    <li><a class="black-text" href="#!">Coding</a></li>
-    <li><a class="black-text" href="#!">Rhino/Grasshopper</a></li>
-  </ul>
-
-
-  <!-- end nav bar -->
+  <div id="navigation-bar"></div>
+  <script src="assets/js/navbar.js"></script>
 
   
 
