@@ -27,7 +27,7 @@ document.getElementById("navigation-bar").innerHTML =
 </ul>
 
 <!-- Dropdown Structure -->
-<ul class="dropdown-content" id="r_d_dropdown">
+<ul id="r_d_dropdown" class="dropdown-content">
   <li><a class="black-text" href="/r_d/geometry.html">Geometry</a></li>
   <li><a class="black-text" href="/r_d/optimisation.html">Optimisation</a></li>
   <li><a class="black-text" href="/r_d/coding.html">Coding</a></li>
