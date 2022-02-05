@@ -138,11 +138,9 @@
 
 
  
- 
   <!-- footer -->
   <div id="footer"></div>
-  <script src="assets/js/footer.js"></script>
-
+  <script src="./assets/js/footer.js"></script>
 
 
     <!-- Compiled and minified JavaScript -->
@@ -156,18 +154,22 @@
     </script>
 
 
-    <script>
+    <!-- <script>
       document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.sidenav');
-      var instances = M.Sidenav.init(elems);
-      });
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+        });
     </script>
+ -->
+
 
     <script>
       document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.dropdown-content');
-      var instances = M.Sidenav.init(elems);
-      });
+        var elems = document.querySelectorAll('.sidenav');
+        for (var i = 0; i < elems.length; i++){ 
+        var instances = M.Sidenav.init(elems[i]);
+        };
+      })
     </script>
 
 
