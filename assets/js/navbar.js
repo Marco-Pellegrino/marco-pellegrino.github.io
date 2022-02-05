@@ -22,9 +22,8 @@ document.getElementById("navigation-bar").innerHTML =
 
 <ul class="sidenav" id="mobile-demo">
   <li><a href="/about.html">About</a></li>
-  <!-- <li><a href="/r_d.html">R&D</a></li> -->
   <li><a href="/projects.html">Projects</a></li>
-  <li><a class="dropdown-trigger black-text" href="/r_d.html" data-target="r_d_dropdown">R&D</a></li>
+  <li><a class="dropdown-trigger black-text" href="#" data-target="r_d_dropdown">R&D</a></li>
 </ul>
 
 <!-- Dropdown Structure -->
