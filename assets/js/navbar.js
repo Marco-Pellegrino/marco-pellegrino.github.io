@@ -12,7 +12,7 @@ document.getElementById("navigation-bar").innerHTML =
       <ul class="right hide-on-med-and-down">
         <li><a class="black-text" href="/about.html">About</a></li>
         <li><a class="black-text" href="/projects.html">Projects</a></li>
-        <li><a class="dropdown-trigger black-text" data-target="r_d_dropdown">R&D<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-trigger black-text" href="#!" data-target="r_d_dropdown">R&D<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
   </div>
   </div>
