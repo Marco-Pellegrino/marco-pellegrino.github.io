@@ -23,46 +23,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </head>
+
 <body>
 
   <!-- nav bar -->
+  <div id="navbar"></div>
+  <script src="/assets/js/navbar.js"></script>
 
-  <div class="navbar-fixed">
-    
-    <nav class="white">
-      <div class="container">
-      <div class="nav-wrapper white">
-        <!-- <div class="container "> -->
-          <a class="sidenav-trigger" href="index.html" data-target="mobile-demo"><i class="material-icons black-text">menu</i></a>
-          <a class="brand-logo black-text" href="index.html" ><i class="material-icons">polymer</i></a>       
-          <ul class="right hide-on-med-and-down">
-            <li><a class="black-text" href="about.html">About</a></li>
-            <li><a class="black-text" href="projects.html">Projects</a></li>
-            <li><a class="dropdown-trigger black-text" href="#" data-target="r_d_dropdown">R&D<i class="material-icons right">arrow_drop_down</i></a></li>
-          </ul>
-      </div>
-      </div>
-    </nav>
   
-  </div>
-  
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="r_d.html">R&D</a></li>
-    </ul>
-
-  <!-- Dropdown Structure -->
-  <ul id="r_d_dropdown" class="dropdown-content">
-    <li><a class="black-text" id="geometry_dropdown" href="r_d/geometry.html">Geometry</a></li>
-    <li><a class="black-text" href="#!">Optimisation</a></li>
-    <li><a class="black-text" href="#!">Coding</a></li>
-    <li><a class="black-text" href="#!">Rhino/Grasshopper</a></li>
-  </ul>
-
-
-        
-
 
 
 
@@ -162,79 +130,32 @@
 
     </div>
 
-    <!-- <div>
-      <h6>
-        <span style="font-style: italic;"> Experience</span>
-      </h6>
-
-      <div class="divider"></div>
-      
-      <div>
-        
-        <p> <a class="waves-effect waves-light btn black-text white" href="assets/documents/MarcoPellegrino_CV.pdf" target="_blank"> <i class="material-icons right">download</i>CV</a> </p>
-        <p> <a class="waves-effect waves-light btn black-text white" href="assets/documents/MarcoPellegrino_Portfolio.pdf" target="_blank"> <i class="material-icons right">download</i>Portfolio</a> </p>
-      </div>  
-
-    </div> -->
-
     
   </div>
 
 
 
-
-  <footer class="page-footer grey lighten-4">
-    <div class="container">
-      <div class="row">
-        <div class="col s8">
-          <h5 class="grey-text text-darken-2">Footer Content</h5>
-          <p  class="grey-text text-darken-3">You can use rows and columns here to organize your footer content.</p>
-        </div>
-        <div class="col s4">
-          <h5 class="grey-text text-darken-2">Connect</h5>
-          <!-- <a href=""> <i class="material-icons white-text">Whatsapp</i> </a> -->
-          <!-- <i> <span class="material-icons">mail</span> </i> -->
-          <i> <a  class="material-icons grey-text text-darken-3" href="mailto:pellegrino.marco@icloud.com">mail</a> </i>
-          <i> <a  class="material-icons grey-text text-darken-3" href="https://wa.me/393291536801">whatsapp</a> </i>
-          <i> <a  class="material-icons grey-text text-darken-3" href="https://www.linkedin.com/in/mp0110/">work</a> </i>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-copyright">
-      <div class="container grey-text text-darken-3">
-        Made with <a class= "orange-text" href="https://en.wikipedia.org/wiki/Love" target="_blank"> Love</a>
-      </div>
+  <!-- footer -->
+  <div id="footer"></div>
+  <script src="/assets/js/footer.js"></script>
 
 
-    </div>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+  <script>
+    var dropdowns = document.querySelectorAll('.dropdown-trigger')
+    for (var i = 0; i < dropdowns.length; i++){
+        M.Dropdown.init(dropdowns[i], {coverTrigger: false, constrainWidth: false, hover:true});
+    }
+  </script>
 
-
-
-
-
-
-
-
-  </footer>
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <script>
-      var dropdowns = document.querySelectorAll('.dropdown-trigger')
-      for (var i = 0; i < dropdowns.length; i++){
-          M.Dropdown.init(dropdowns[i], {coverTrigger: false, constrainWidth: false, hover:true});
-      }
-    </script>
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems);
-    });
-    </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems);
+  });
+  </script>
 
 
 
