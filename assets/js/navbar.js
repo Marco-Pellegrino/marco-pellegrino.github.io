@@ -29,18 +29,18 @@ document.getElementById("navbar").innerHTML =
 
   <!-- Dropdown Structure -->
   <ul class="dropdown-content" id="r_d_dropdown">
-    <li><a class="black-text" id="geometry_dropdown" href="r_d/geometry.html">Geometry</a></li>
-    <li><a class="black-text" id="geometry_dropdown" href="r_d/optimisation.html">Optimisation</a></li>
-    <li><a class="black-text" id="geometry_dropdown" href="r_d/coding.html">Coding</a></li>
-    <li><a class="black-text" id="geometry_dropdown" href="r_d/rhino_grasshopper.html">Rhino/Grasshopper</a></li>
+    <li><a class="black-text" id="geometry_dropdown" href="./r_d/geometry.html">Geometry</a></li>
+    <li><a class="black-text" id="geometry_dropdown" href="./r_d/optimisation.html">Optimisation</a></li>
+    <li><a class="black-text" id="geometry_dropdown" href="./r_d/coding.html">Coding</a></li>
+    <li><a class="black-text" id="geometry_dropdown" href="./r_d/rhino_grasshopper.html">Rhino/Grasshopper</a></li>
   </ul>
 
 
     <!-- Dropdown Structure Mobile-->
     <ul class="dropdown-content" id="r_d_dropdown_mobile">
-      <li><a class="black-text" id="geometry_dropdown" href="r_d/geometry.html">Geometry</a></li>
-      <li><a class="black-text" id="geometry_dropdown" href="r_d/optimisation.html">Optimisation</a></li>
-      <li><a class="black-text" id="geometry_dropdown" href="r_d/coding.html">Coding</a></li>
-      <li><a class="black-text" id="geometry_dropdown" href="r_d/rhino_grasshopper.html">Rhino/Grasshopper</a></li>
+      <li><a class="black-text" id="geometry_dropdown" href="./r_d/geometry.html">Geometry</a></li>
+      <li><a class="black-text" id="geometry_dropdown" href="./r_d/optimisation.html">Optimisation</a></li>
+      <li><a class="black-text" id="geometry_dropdown" href="./r_d/coding.html">Coding</a></li>
+      <li><a class="black-text" id="geometry_dropdown" href="./r_d/rhino_grasshopper.html">Rhino/Grasshopper</a></li>
     </ul>
 `

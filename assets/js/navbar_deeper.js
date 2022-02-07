@@ -7,7 +7,7 @@ document.getElementById("navbar").innerHTML =
       <div class="nav-wrapper white">
         <!-- <div class="container "> -->
           <a class="sidenav-trigger" href="#" data-target="mobile-demo"><i class="material-icons black-text">menu</i></a>
-          <a class="brand-logo black-text" href="index.html" ><i class="material-icons">polymer</i></a>       
+          <a class="brand-logo black-text" href="../index.html" ><i class="material-icons">polymer</i></a>       
           <ul class="right hide-on-med-and-down">
             <li><a class="black-text" href="../about.html">About</a></li>
             <li><a class="black-text" href="../projects.html">Projects</a></li>
