@@ -1,0 +1,30 @@
+Location: Florence, Italy
+Venue:  tbc
+Dates: July  16 - 17, 2022
+Time: 10:00 - 18:00
+Course Fee: Professional EUR 750 (+VAT), Student EUR 350 (+VAT) 
+Places are limited to a maximum of 10 participants with limited educational places. A minimum of 4 places are required for the workshop to take place. The workshop will be cancelled should this quota not be filled by July 1st.
+
+Lead by plugin developer and structural engineer Marco Pellegrino, this two day workshop will focus on methods of setting up structural systems in the parametric environment of Grasshopper. Participants will be guided through the basics of analysing and interpreting structural models, to optimisation processes and how to integrate Alpaca4d into python scripts.
+
+This workshop is aimed towards beginner to intermediate users of Grasshopper however advanced users are also encouraged to apply. It is open to both professional and academic users.
+
+Alpaca4d is a parametric structural engineering tool which provides accurate analysis of spatial trusses, frames, shells and bricks. Alpaca4d is fully embedded in the parametric design environment of Grasshopper, a plug-in for the 3d modeling tool Rhinoceros. This makes it easy to combine parameterized geometric models, finite element calculations and optimization algorithms like Galapagos.
+
+
+Course Outline
+Introduction & Presentation of project examples
+Optimization of cross sections of line based and surface based elements
+Geometric optimization
+Topological Optimization
+Structural Performance Informed Form Finding
+Understanding analysis algorithms embedded in Alpaca4d and visualising results
+Complex Workflow processes in Rhino3d, Grasshopper3d and Alpaca4d
+Requirements
+The workshop will be taught in English.
+Basic Rhino and Grasshopper knowledge is recommended.
+No knowledge of Alpaca4d is needed.
+
+Participants should bring their own laptops with either Rhino6/Rhino7 and Grasshopper3d installed. A 90 day trial version of Rhino can be downloaded from Rhino3D.
+
+Alpaca4d tool will be provided to all participants.
